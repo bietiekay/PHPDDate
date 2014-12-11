@@ -14,4 +14,5 @@ $ddate = new PHPDiscordianDate();
 date_default_timezone_set("UTC");
 
 echo $ddate->MakeDay(date("m"), date("d"), date("Y"));
+
 ?>
